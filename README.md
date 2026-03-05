@@ -1,6 +1,6 @@
 # FTU - FileToTelegramUploader
 
-App for uploading files to Telegram groups. Both manual and automatic uploading using crontab are supported.
+CLI file uploader to Telegram groups. Supports manual uploads and automated scheduled uploads using cron (crontab).
 
 
 How to use:
@@ -8,7 +8,7 @@ How to use:
 2. Execute `./ftu --filePath={Path to the file} --groupId={Telegram group ID} --botToken={Telegram bot token} --logResult={true|false}`
 
 ----
-Программа для выгрузки и публикации файлов в Телеграм группы. Поддерживается как ручная выгрузка, так и автоматическая с использованием crontab. 
+Консольна CLI программа для удобной выгрузки и публикации файлов в Телеграм группы. Поддерживается как ручная выгрузка, так и автоматическая с использованием crontab. 
 
 Как использовать:
 1. Создайте бота и Телеграм группу, в которую вы хотите выгружать файлы. Добавьте бота в нужную Телеграм группу.
